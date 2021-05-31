@@ -19,9 +19,6 @@ EYE_ASPECT_RATIO_CONSEC_FRAMES = 100
 #COunts no. of consecutuve frames below threshold value
 COUNTER = 0
 
-#Load face cascade which will be used to draw a rectangle around detected faces.
-# face_cascade = cv2.CascadeClassifier("haarcascades/haarcascade_frontalface_default.xml")
-
 #This function calculates and return eye aspect ratio
 def eye_aspect_ratio(eye):
     A = distance.euclidean(eye[1], eye[5])
