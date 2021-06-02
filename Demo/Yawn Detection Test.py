@@ -64,7 +64,7 @@ while True:
         if 1800 < timer_end < 1820:
             count_yawn = 0
 
-        if count_yawn == 1:
+        if count_yawn == 5:
             mixer.init()
             mixer.music.load("../Files/alarm.wav")
             mixer.music.play()
